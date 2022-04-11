@@ -1,0 +1,95 @@
+[2022-04-06 16:59:46,448]  INFO {org.wso2.carbon.launcher.extensions.OSGiLibBundleDeployerUtils updateOSGiLib} - Successfully updated the OSGi bundle information of Carbon Runtime: server  
+[2022-04-06 16:59:46,833]  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Logging configuration changed. (Event Admin service unavailable - no notification sent).
+[2022-04-06 16:59:47,780]  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Logging configuration changed. (Event Admin service unavailable - no notification sent).
+[2022-04-06 16:59:48,506]  INFO {org.wso2.msf4j.internal.websocket.WebSocketServerSC} - All required capabilities are available of WebSocket service component is available.
+[2022-04-06 16:59:48,547]  INFO {org.wso2.carbon.metrics.core.config.model.JmxReporterConfig} - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+[2022-04-06 16:59:48,555]  INFO {org.wso2.msf4j.analytics.metrics.MetricsComponent} - Metrics Component is activated
+[2022-04-06 16:59:48,560]  INFO {org.wso2.carbon.databridge.agent.internal.DataAgentDS} - Successfully deployed Agent Server 
+[2022-04-06 16:59:48,905]  WARN {org.wso2.carbon.cluster.coordinator.rdbms.internal.RDBMSCoordinationServiceComponent} - It is recommended to have the heartbeatInterval value as 5000 milliseconds or higher than the provided 3000 milliseconds in cluster.config.strategyConfig
+[2022-04-06 16:59:48,905]  INFO {org.wso2.carbon.cluster.coordinator.rdbms.internal.RDBMSCoordinationServiceComponent} - Cluster coordination has been disabled. Enable it in deployment.yaml to use the clustering service
+[2022-04-06 16:59:48,911]  INFO {org.wso2.carbon.metrics.jdbc.core.config.model.JdbcReporterConfig} - Creating JDBC reporter for Metrics with source 'wso2-si', data source 'java:comp/env/jdbc/WSO2MetricsDB' and 60 seconds polling period
+[2022-04-06 16:59:48,919]  INFO {org.wso2.carbon.analytics.idp.client.core.utils.IdPServiceUtils} - IdP client of type 'local' is started.
+[2022-04-06 16:59:49,208]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server started in 97ms
+[2022-04-06 16:59:49,209]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server started in 98ms
+[2022-04-06 16:59:49,211]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 7070
+[2022-04-06 16:59:49,211]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 7443
+[2022-04-06 16:59:49,257]  INFO {org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi} - org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi service component has  started.
+[2022-04-06 16:59:49,258]  INFO {org.wso2.carbon.streaming.integrator.statistics.internal.service.OperatingSystemMetricsServiceComponent} - OperatingSystemMetricsService Component activated
+[2022-04-06 16:59:49,284]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - org.wso2.carbon.databridge.receiver.binary.internal.Service Component is activated
+[2022-04-06 16:59:49,292]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary SSL Transport on port : 9711
+[2022-04-06 16:59:49,293]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary TCP Transport on port : 9611
+[2022-04-06 16:59:49,294]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} - Service Component is activated
+[2022-04-06 16:59:49,302]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift Server started at 0.0.0.0
+[2022-04-06 16:59:49,310]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift SSL port : 7711
+[2022-04-06 16:59:49,312]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift port : 7611
+[2022-04-06 16:59:49,402]  INFO {org.wso2.carbon.siddhi.error.handler.core.internal.ServiceComponent} - Siddhi Error Handler Core Startup Listener Service Component is Activated.
+[2022-04-06 16:59:49,403]  INFO {org.wso2.carbon.siddhi.extensions.installer.core.internal.StartupComponent} - Siddhi Extensions Installer Core Startup Listener Service Component is Activated.
+[2022-04-06 16:59:49,408]  INFO {org.wso2.msf4j.internal.MicroservicesServerSC} - All microservices are available
+[2022-04-06 16:59:49,410]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 9090
+[2022-04-06 16:59:49,410]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 9443
+[2022-04-06 16:59:49,598]  INFO {org.wso2.carbon.streaming.integrator.core.internal.StreamProcessorService} - Siddhi App TestSiddhiApp deployed successfully
+[2022-04-06 16:59:49,603]  INFO {org.wso2.carbon.kernel.internal.CarbonStartupHandler} - WSO2 Streaming Integrator started in 3.469 sec
+[2022-04-06 16:59:59,935]  INFO {org.wso2.carbon.siddhi.error.handler.core.internal.ServiceComponent} - Siddhi Error Handler Core Startup Listener Service Component is Deactivated.
+[2022-04-06 16:59:59,937]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HttpConnectorListener stopped listening on host 0.0.0.0 and port 7070
+[2022-04-06 16:59:59,937]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HttpConnectorListener stopped listening on host 0.0.0.0 and port 7443
+[2022-04-06 16:59:59,937]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server stopped
+[2022-04-06 16:59:59,949]  INFO {org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi} - org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi service component has stop.
+[2022-04-06 16:59:59,967]  INFO {org.wso2.carbon.siddhi.extensions.installer.core.internal.StartupComponent} - Siddhi Extensions Installer Core Startup Listener Service Component is Deactivated.
+[2022-04-06 16:59:59,975]  INFO {org.wso2.msf4j.analytics.metrics.MetricsComponent} - Metrics Component is deactivated
+[2022-04-06 16:59:59,978]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupImpl} - Thrift server shutting down...
+[2022-04-06 16:59:59,979]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupImpl} - Successfully stopped thrift server
+[2022-04-06 16:59:59,979]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - Binary Data Receiver server shutting down...
+[2022-04-06 16:59:59,980]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Stopping Binary Server..
+[2022-04-06 16:59:59,980]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Successfully stopped Binary server
+[2022-04-06 16:59:59,980]  WARN {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Error while accepting TCP connection from [SSL: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=9711]] for binary transport receiver.
+[2022-04-06 16:59:59,980]  WARN {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Error while accepting TCP connection from ServerSocket[addr=0.0.0.0/0.0.0.0,localport=9611] for binary transport receiver.
+[2022-04-06 17:03:20,503]  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Logging configuration changed. (Event Admin service unavailable - no notification sent).
+[2022-04-06 17:03:21,349]  INFO {org.ops4j.pax.logging.spi.support.EventAdminConfigurationNotifier} - Logging configuration changed. (Event Admin service unavailable - no notification sent).
+[2022-04-06 17:03:22,089]  INFO {org.wso2.msf4j.internal.websocket.WebSocketServerSC} - All required capabilities are available of WebSocket service component is available.
+[2022-04-06 17:03:22,124]  INFO {org.wso2.carbon.metrics.core.config.model.JmxReporterConfig} - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+[2022-04-06 17:03:22,132]  INFO {org.wso2.msf4j.analytics.metrics.MetricsComponent} - Metrics Component is activated
+[2022-04-06 17:03:22,137]  INFO {org.wso2.carbon.databridge.agent.internal.DataAgentDS} - Successfully deployed Agent Server 
+[2022-04-06 17:03:28,972]  WARN {org.wso2.carbon.cluster.coordinator.rdbms.internal.RDBMSCoordinationServiceComponent} - It is recommended to have the heartbeatInterval value as 5000 milliseconds or higher than the provided 3000 milliseconds in cluster.config.strategyConfig
+[2022-04-06 17:03:28,972]  INFO {org.wso2.carbon.cluster.coordinator.rdbms.internal.RDBMSCoordinationServiceComponent} - Cluster coordination has been disabled. Enable it in deployment.yaml to use the clustering service
+[2022-04-06 17:03:28,976]  INFO {org.wso2.carbon.metrics.jdbc.core.config.model.JdbcReporterConfig} - Creating JDBC reporter for Metrics with source 'wso2-si', data source 'java:comp/env/jdbc/WSO2MetricsDB' and 60 seconds polling period
+[2022-04-06 17:03:28,981]  INFO {org.wso2.carbon.analytics.idp.client.core.utils.IdPServiceUtils} - IdP client of type 'local' is started.
+[2022-04-06 17:03:29,175]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server started in 66ms
+[2022-04-06 17:03:29,175]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server started in 67ms
+[2022-04-06 17:03:29,179]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 7070
+[2022-04-06 17:03:29,179]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 7443
+[2022-04-06 17:03:29,210]  INFO {org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi} - org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi service component has  started.
+[2022-04-06 17:03:29,210]  INFO {org.wso2.carbon.streaming.integrator.statistics.internal.service.OperatingSystemMetricsServiceComponent} - OperatingSystemMetricsService Component activated
+[2022-04-06 17:03:29,228]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - org.wso2.carbon.databridge.receiver.binary.internal.Service Component is activated
+[2022-04-06 17:03:29,233]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary SSL Transport on port : 9711
+[2022-04-06 17:03:29,234]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary TCP Transport on port : 9611
+[2022-04-06 17:03:29,235]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} - Service Component is activated
+[2022-04-06 17:03:29,242]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift Server started at 0.0.0.0
+[2022-04-06 17:03:29,247]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift SSL port : 7711
+[2022-04-06 17:03:29,249]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift port : 7611
+[2022-04-06 17:03:29,307]  INFO {org.wso2.carbon.siddhi.error.handler.core.internal.ServiceComponent} - Siddhi Error Handler Core Startup Listener Service Component is Activated.
+[2022-04-06 17:03:29,308]  INFO {org.wso2.carbon.siddhi.extensions.installer.core.internal.StartupComponent} - Siddhi Extensions Installer Core Startup Listener Service Component is Activated.
+[2022-04-06 17:03:29,312]  INFO {org.wso2.msf4j.internal.MicroservicesServerSC} - All microservices are available
+[2022-04-06 17:03:29,322]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 9090
+[2022-04-06 17:03:29,322]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 9443
+[2022-04-06 17:03:29,635]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host localhost and port 8081
+[2022-04-06 17:03:29,636]  INFO {io.siddhi.extension.io.http.source.HttpConnectorPortBindingListener} - HTTP source localhost:8081 has been started
+[2022-04-06 17:03:29,636]  INFO {org.wso2.carbon.streaming.integrator.core.internal.StreamProcessorService} - Siddhi App HttpSource deployed successfully
+[2022-04-06 17:03:29,650]  INFO {org.wso2.carbon.streaming.integrator.core.internal.StreamProcessorService} - Siddhi App TestSiddhiApp deployed successfully
+[2022-04-06 17:03:29,654]  INFO {org.wso2.carbon.kernel.internal.CarbonStartupHandler} - WSO2 Streaming Integrator started in 9.843 sec
+[2022-04-06 17:03:38,632]  INFO {io.siddhi.extension.io.http.source.HttpConnectorRegistry} - Server connector for port '8081' has successfully shutdown.
+[2022-04-06 17:03:38,633]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HttpConnectorListener stopped listening on host localhost and port 8081
+[2022-04-06 17:03:38,634]  INFO {io.siddhi.extension.io.http.source.HttpConnectorPortBindingListener} - HTTP source localhost:8081 has been closed
+[2022-04-06 17:03:38,645]  INFO {org.wso2.carbon.siddhi.error.handler.core.internal.ServiceComponent} - Siddhi Error Handler Core Startup Listener Service Component is Deactivated.
+[2022-04-06 17:03:38,649]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HttpConnectorListener stopped listening on host 0.0.0.0 and port 7070
+[2022-04-06 17:03:38,649]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HttpConnectorListener stopped listening on host 0.0.0.0 and port 7443
+[2022-04-06 17:03:38,650]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server stopped
+[2022-04-06 17:03:38,670]  INFO {org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi} - org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi service component has stop.
+[2022-04-06 17:03:38,698]  INFO {org.wso2.carbon.siddhi.extensions.installer.core.internal.StartupComponent} - Siddhi Extensions Installer Core Startup Listener Service Component is Deactivated.
+[2022-04-06 17:03:38,709]  INFO {org.wso2.msf4j.analytics.metrics.MetricsComponent} - Metrics Component is deactivated
+[2022-04-06 17:03:38,713]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupImpl} - Thrift server shutting down...
+[2022-04-06 17:03:38,713]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupImpl} - Successfully stopped thrift server
+[2022-04-06 17:03:38,714]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - Binary Data Receiver server shutting down...
+[2022-04-06 17:03:38,714]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Stopping Binary Server..
+[2022-04-06 17:03:38,714]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Successfully stopped Binary server
+[2022-04-06 17:03:38,715]  WARN {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Error while accepting TCP connection from ServerSocket[addr=0.0.0.0/0.0.0.0,localport=9611] for binary transport receiver.
+[2022-04-06 17:03:38,715]  WARN {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Error while accepting TCP connection from [SSL: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=9711]] for binary transport receiver.
